@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    乎知
+{% endblock %}
+
+{% block head %}
+    <link rel="stylesheet" href="../static/css/index.css">
+    <script src="../static/js/index.js"></script>
+{% endblock %}
+
+{% block main %}
+    <div class="main">
+        {% for question in questions %}
+            <div class="question">
+            <div class="question-t">
+                <div class="username">{{question.author.username}}</div>
+            </div>
+            <div class="question-m">
+                <a href="/detail/{{question.id}}" class="question-title">{{question.title}}</a>
+                <p class="question-context">{{question.context}}</p>
+            </div>
+            <div class="question-b">
+                <p class="time">{{question.creat_time}}</p>
+            </div>
+        </div>
+        {% endfor %}
+
+
+    </div>
+
+    </div>
+{% endblock %}

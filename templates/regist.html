@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+{% block head %}
+    <link rel="stylesheet" href="../static/css/regist.css">
+    <script src="../static/js/regist.js"></script>
+{% endblock %}
+
+{% block title %}
+    注册
+{% endblock %}
+
+{% block main %}
+    <div class="bg">
+        <div class="main">
+       <div class="container-m">
+            <div class="title">
+            <p class="big-font">乎知</p>
+            <p class="context">注册乎知，发现更大的世界</p>
+        </div>
+
+    <div class="phone">
+        <div class="phoneInput">
+            <input type="text" placeholder="手机号码" class="my-input">
+        </div>
+        <div class="warning">
+            <p></p>
+        </div>
+    </div>
+           <div class="username">
+        <div class="usernameInput">
+            <input type="text" placeholder="用户名" class="my-input">
+        </div>
+    </div>
+
+           <div class="password">
+        <div class="passwordInput">
+            <input type="password" placeholder="密码" class="my-input">
+        </div>
+    </div>
+
+           <div class="login-button">
+               <button type="submit" class="my-button">注册</button>
+           </div>
+
+       </div>
+    </div>
+    </div>
+{% endblock %}

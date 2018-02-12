@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    个人中心
+{% endblock %}
+
+{% block head %}
+    <link rel="stylesheet" href="../static/css/detail.css">
+    <link rel="stylesheet" href="../static/css/index.css">
+
+{% endblock %}
+
+{% block main %}
+    <div class="main">
+        <div class="all"><p>全部{{user.questions|length}}个提问</p></div>
+        {% for question in user.questions %}
+            <div class="question">
+            <div class="question-t">
+                <div class="username">{{question.author.username}}</div>
+            </div>
+            <div class="question-m">
+                <a href="/detail/{{question.id}}" class="question-title">{{question.title}}</a>
+                <p class="question-context">{{question.context}}</p>
+            </div>
+            <div class="question-b">
+                <p class="time">{{question.creat_time}}</p>
+            </div>
+        </div>
+        {% endfor %}
+        <!--下面类名借用的提问的类-->
+        <div class="all"><p>全部{{user.answers|length}}个回答</p></div>
+        {% for answer in user.answers %}
+            <div class="question">
+            <div class="question-t">
+                <div class="username">{{answer.author.username}}</div>
+            </div>
+            <div class="question-m">
+                <a href="/detail/{{answer.id}}" class="question-title">{{answer.title}}</a>
+                <p class="question-context">{{answer.context}}</p>
+            </div>
+            <div class="question-b">
+                <p class="time">{{answer.creat_time}}</p>
+            </div>
+        </div>
+        {% endfor %}
+
+
+    </div>
+
+    </div>
+{% endblock %}

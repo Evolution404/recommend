@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% block title %}
+发布问答
+{% endblock %}
+{% block head %}
+    <script src="../static/js/jquery.autosize.min.js"></script>
+    <script src="../static/js/question.js"></script>
+    <link href="../static/css/question.css" rel="stylesheet">
+
+{% endblock %}
+
+{% block main %}
+    <div class="main">
+        <h3>写下你的问题</h3>
+        <div class="describe">描述精确的问题更易得到解答</div>
+        <div class="Input-div">
+            <textarea required="" autocomplete="off" role="combobox" aria-expanded="false" aria-autocomplete="list" aria-haspopup="true" class="Input-title" placeholder="问题标题"></textarea>
+            <p class="warning"></p>
+            <span>问题描述（可选）：</span>
+            <textarea required="" autocomplete="off" role="combobox" aria-expanded="false" aria-autocomplete="list" aria-haspopup="true" class="Input-context" placeholder="问题背景、条件等详细信息"></textarea>
+            <button class="my-button submit" >提交问题</button>
+        </div>
+
+    </div>
+{% endblock %}

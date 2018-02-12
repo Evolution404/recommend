@@ -1,0 +1,57 @@
+body{
+    background-color: #edf4fa;
+}
+
+.main{
+    width: 432px;
+    height: 415px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding-top: 10px;
+
+}
+
+.container-m{
+    margin: 0px auto;
+    width: 350px;
+}
+
+.title{
+    color: #0084ff;
+    text-align: center;
+}
+
+.big-font{
+    font-family: 微软雅黑;
+    font-size: 65px;
+}
+
+.context{
+    font-size: 22px;
+
+}
+
+.phone{
+    width: 352px;
+    height: 48px;
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 61px;
+    padding-top: 10px;
+
+}
+
+.password{
+    width: 352px;
+    height: 48px;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.warning{
+    position: absolute;
+    top: 24px;
+    left: 195px;
+    color: #f1403c;
+}

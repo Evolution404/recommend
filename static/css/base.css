@@ -1,0 +1,48 @@
+blockquote,body,button,dd,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,hr,input,legend,li,ol,p,pre,td,textarea,th,ul{margin:0;padding:0}body,button,input,select,textarea {
+    font-family: 微软雅黑;
+                                                                                                                                 }
+.logo{
+    color: #0084ff;
+    font-size: 36px;
+    font-family: 微软雅黑;
+}
+
+.my-input{
+    margin: 0 auto;
+    width: 352px;
+    height: 48px;
+    color: #1a1a1a;
+    line-height: 24px;
+    border: none;
+    outline: medium;
+    border-bottom: 1px solid #EBEBEB;
+    font-size: 14px;
+}
+
+.my-button{
+    color: #fff;
+    background-color: #0084ff;
+    width: 100%;
+    margin-top: 30px;
+    height: 40px;
+    display: inline-block;
+    padding: 0 16px;
+    font-size: 14px;
+    line-height: 32px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid;
+    border-radius: 3px;
+}
+
+.my-button:hover{
+    background-color: #0077e6;
+}
+.navbar-left .search{
+    width: 55px;
+    height: 33px;
+    position: absolute;
+    top: -21px;
+    left: 664px;
+    padding: 0 0px;
+}

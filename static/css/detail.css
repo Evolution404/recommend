@@ -1,0 +1,149 @@
+html,body{
+    background-color: #f6f6f6;
+    width: 100%;
+}
+
+.top{
+    width: 60%;
+    margin: 5px auto;
+    padding-bottom: 10px;
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 2px 13px rgba(26,26,26,.1);
+    box-sizing: border-box;
+}
+
+.question{
+    width: 800px;
+    margin: 0 auto;
+    padding-top: 10px;
+
+}
+
+.username{
+    position: relative;
+    display: inline-block;
+    height: 30px;
+    padding: 0 15px;
+    font-size: 14px;
+    line-height: 30px;
+    color: #0084ff;
+    vertical-align: top;
+    border-radius: 100px;
+    background: rgba(0,132,255,.1);
+    cursor: pointer;
+}
+
+.username:hover{
+    background-color: rgba(0,132,255,.15);
+}
+
+.question-title{
+    margin-top: 12px;
+    margin-bottom: 4px;
+    font-size: 22px;
+    font-weight: 600;
+    font-synthesis: style;
+    line-height: 32px;
+    color: #1a1a1a;
+}
+
+.question-context{
+    font-size: 15px;
+    font-family: 微软雅黑;
+}
+
+.time{
+    text-align: right;
+    margin-right: 50px;
+    font-size: 14px;
+    color: #8590a6;
+}
+
+.all{
+    width: 60%;
+    margin: 20px auto;
+    padding-bottom: 10px;
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 2px 13px rgba(26,26,26,.1);
+    box-sizing: border-box;
+    height: 50px;
+}
+
+.all p{
+    display: block;
+    line-height: 50px;
+    color: #8590a6;
+    text-align: center;
+    font-size: 15px;
+}
+
+.all p:hover{
+    color: #175199;
+    cursor: pointer;
+}
+
+.answer{
+    width: 60%;
+    margin: 20px auto;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 2px 13px rgba(26,26,26,.1);
+    box-sizing: border-box;
+}
+
+.answer-b .time{
+    margin-right: 106px;
+}
+
+.answer-t .username{
+
+}
+
+.question-context{
+    margin-top: 20px;
+}
+
+.submit{
+    width: 60%;
+    margin: 40px auto;
+    padding: 10px 30px 10px 20px;
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 2px 13px rgba(26,26,26,.1);
+    box-sizing: border-box;
+    overflow: auto;
+    position: relative;
+}
+
+
+textarea{
+    width: 100%;
+    height: 162px;
+    resize:none;
+    line-height: 24px;
+    overflow: hidden;
+    outline: none;
+    border: none;
+    margin-top: 20px;
+}
+
+.my-button{
+    width: 92px;
+    height: 33px;
+    float: right;
+    margin-right: 55px;
+}
+
+.warning{
+    position: absolute;
+    top: 50px;
+    right: 100px;
+    color: #f1403c;
+    text-align: right;
+}
+
